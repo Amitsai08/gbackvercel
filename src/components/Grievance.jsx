@@ -106,8 +106,8 @@ const Grievance=()=>{
                   <label for="complaint">Choose a department:</label>
                     <select name="dept" id="complaint" onChange={handleInputs}>
                     <option value="">--Select department--</option>
-                     <option value="Education">Education</option>
-                     <option value="Health Ministry">Health Ministry</option>
+                     <option value="Education">Agent</option>
+                     <option value="Health Ministry">Bank</option>
                      <option value="Service Provider">Service Provider</option>
                      <option value="Others">Others</option>
                     </select>
@@ -142,8 +142,8 @@ const Grievance=()=>{
                <img src={phone} alt="not found" height="50" width="50"/>
              </div>
              <div className="contact_info_item col-2 abc">
-               <h6>Phone</h6>
-               <p>+1800 266 1236</p>
+                <h6>Phone</h6>
+                <p>+91 9112954717</p>
              </div>
 
 <div className="col-1"></div>
@@ -153,7 +153,7 @@ const Grievance=()=>{
              </div>
              <div className="contact_info_item col-3 abc">
                <h6>Email</h6>
-               <p>filemygrievance@gmail.com</p>
+               <p>BankAgentBridge@gmail.com</p>
              </div>
              
 
@@ -163,7 +163,7 @@ const Grievance=()=>{
              </div>
              <div className="contact_info_item col-2 abc">
                <h6>Address</h6>
-               <p>New Delhi</p>
+               <p>Nagpur</p>
              </div>
 
            </div>

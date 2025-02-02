@@ -82,7 +82,7 @@ const About=()=>{
              </div>
              <div className="contact_info_item col-2 abc">
                <h6>Phone</h6>
-               <p>+1800 266 1236</p>
+               <p>+91 9112954717</p>
              </div>
 
 <div className="col-1"></div>
@@ -92,7 +92,7 @@ const About=()=>{
              </div>
              <div className="contact_info_item col-3 abc">
                <h6>Email</h6>
-               <p>filemygrievance@gmail.com</p>
+               <p>BankAgentBridge@gmail.com</p>
              </div>
              
 
