@@ -31,7 +31,7 @@ const Navbar=()=>{
    return(
        <>
        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <NavLink className="navbar-brand" to="/">Grievance Portal</NavLink>
+  <NavLink className="navbar-brand" to="/">BankAgentBridge Grievance Portal</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" 
   data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" 
   aria-label="Toggle navigation">
