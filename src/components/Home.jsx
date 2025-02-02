@@ -8,7 +8,7 @@ const Home=()=>{
 
     const userHome=async()=>{
        try{
-         const res = await fetch("https://grievance360.onrender.com/getdata",{
+         const res = await fetch("https://gvercel.onrender.com/getdata",{
             method: "GET",
             headers:{
                 Accept: "application/json",

@@ -10,7 +10,7 @@ const Grievance=()=>{
 
     const userContact=async()=>{
        try{
-         const res = await fetch("https://grievance360.onrender.com/getdata",{
+         const res = await fetch("https://gvercel.onrender.com/getdata",{
             method: "GET",
             headers:{
                 "Content-Type": "application/json"
@@ -46,7 +46,7 @@ const Grievance=()=>{
        event.preventDefault();
 
        const {name,email,phone,dept,grievance}=userData;
-       const res=await fetch("https://grievance360.onrender.com/grievance",{
+       const res=await fetch("https://gvercel.onrender.com/grievance",{
           method:"POST",
           headers:{
             "Content-Type": "application/json"

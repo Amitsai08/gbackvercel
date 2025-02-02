@@ -11,7 +11,7 @@ const GrievanceStatus=()=>{
 
     const getData=async()=>{
         try{
-         const res=await fetch("https://grievance360.onrender.com/grievancelist",{
+         const res=await fetch("https://gvercel.onrender.com/grievancelist",{
             method: "GET",
             headers:{
                 Accept: "application/json",

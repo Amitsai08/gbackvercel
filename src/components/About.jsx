@@ -10,7 +10,7 @@ const About=()=>{
 
     const callAboutPage=async()=>{
        try{
-         const res = await fetch("https://grievance360.onrender.com/about",{
+         const res = await fetch("https://gvercel.onrender.com/about",{
             method: "GET",
             headers:{
                 Accept: "application/json",
