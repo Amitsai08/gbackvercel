@@ -106,8 +106,8 @@ const Grievance=()=>{
                   <label for="complaint">Choose a department:</label>
                     <select name="dept" id="complaint" onChange={handleInputs}>
                     <option value="">--Select department--</option>
-                     <option value="Education">Agent</option>
-                     <option value="Health Ministry">Bank</option>
+                     <option value="Agent">Agent</option>
+                     <option value="Bank">Bank</option>
                      <option value="Service Provider">Service Provider</option>
                      <option value="Others">Others</option>
                     </select>
